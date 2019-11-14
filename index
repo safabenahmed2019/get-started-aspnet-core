@@ -1,0 +1,98 @@
+
+ 
+<html lang="fr">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ 
+<head>
+  <title>Ma première page avec du style</title>
+  <style type="text/css">
+ 
+  body {
+       padding-left: 11em;
+       font-family: Georgia, "Times New Roman",
+          Times, serif;
+    color: purple;
+    background-color: #36C2C4 }
+      ul.navbar {
+           list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em }
+     h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+          ul.navbar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black }
+  ul.navbar a {
+    text-decoration: none }
+  a:link {
+    color: blue }
+  a:visited {
+    color: purple }
+    address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted }
+  </style>
+</head>
+ 
+
+<body>
+<h4> FORMULAIRE CALCUL D'UNE MOYENNE  </h4>
+<form method = "post"  >
+<table>
+ 
+<tr>
+<th>
+<label for ="note1"   > Mathématiques : </label> <input type="number"  name="note[]" id="note1"> </br> </br>
+</th>
+</tr>
+ 
+<tr>
+<th>
+<label for ="note2"  > Français : </label> <input type="number" name="note[]" id="note2"> </br> </br>
+</th>
+</tr>
+ 
+<tr>
+<th>
+<label for ="note3"> Espagnol : </label> <input type="number" name="note[]" id="note3" > </br> </br>
+</th>
+</tr>
+ 
+<tr>
+<th>
+<label for ="note4" > Economie : </label> <input type="number" name="note[]" id="note4"  > </br> </br>
+</th>
+</tr>
+ 
+<tr>
+<th>
+<label for ="note5" > Physique-chimie:  </label> <input type="number" name="note[]" id="note5" > </br> </br>
+</th>
+</tr>
+ 
+<tr>
+<th>
+<label for ="note6"  > Art-plastique : </label> <input type="number" name="note[]" id="note6" > </br> </br>
+</th>
+</tr>
+ 
+<tr>
+<th>
+<label for ="note7"  > Musique </label> <input type="number" name="note[]" id="note7" > </br> </br>
+</th>
+</tr>
+</table>
+ 
+<input type=submit value="Calculer la moyenne" ></input></br> </br>
+MOYENNE GENERALE : <input type="text" value="">
+</form>
+</body>
+</html>
